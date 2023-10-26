@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, Tahoma, Verdana;
+    font-size: 14px;
+    background: rgb(160, 160, 160)
+}
+
+#principal {
+    width: 1200px;
+    height: auto;
+    background: linear-gradient(45deg, #3d1364, #2af7ec);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+#topo {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(45deg, #3d1364, #4c00ff);
+}
+
+#logotipo {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#logotipo img {
+    max-width: 100px;
+    height: auto;
+}
+
+#slogan {
+    max-width: 1100px;
+    height: 100px;
+    text-align: right;
+    line-height: 100px;
+    float: right;
+}
+
+#slogan p {
+    margin: 0;
+    font-size: 28px;
+    padding-right: 50px;
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(20deg, #c45c07, #ff9100);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    list-style: none;
+    float: left;
+}
+
+a.linkmenu:link, a.linkmenu:visited {
+    width: 200px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a.linkmenu:hover, a.linkmenu:active {
+    background: linear-gradient(60deg, #3d1364, #4c00ff);;
+    color: white;
+}
+
+a.linksocial:link, a.linksocial:visited {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 9px;
+    box-shadow: black 2px 2px 5px;
+}
+
+a.linksocial:hover, a.linksocial:active {
+    box-shadow: black 5px 5px 5px;
+}
+
+#conteudo {
+    width: 100%;
+    min-height: 300px;
+}
+
+#areaconteudo {
+    width: 73%;
+    min-height: 300px;
+    float: left;
+    padding: 1%;
+}
+
+#barralateral {
+    width: 23%;
+    min-height: 300px;
+    float: left;
+    padding: 1%;
+}
+
+#rodape {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(45deg, #3d1364, #4c00ff);
+    line-height: 50px;
+}
+
+#copy {
+    width: 48%;
+    height: 50px;
+    float: left;
+    padding-left: 2%;
+}
+
+#dev {
+    height: 50px;
+    float: right;
+    padding-right: 2%;
+}
+
+.clearflix {
+    clear: both;
+}
+
+a.marcacao:link, a.marcacao:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-shadow: #333 1px 1px 1px;
+}
+
+a.marcacao:hover, a.marcacao:active {
+    color: rgb(102, 30, 236);
+} 
+
+/*EMPRESA*/
+.cabecalho {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#quemsomos img {
+    float: left;
+}
+
+.empresa {
+    width: 48%;
+    min-height: 100px;
+    float: left;
+    padding: 1%;
+}
+
+/*SERVIÇOS*/
+#servicos-oferecidos {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#imagensPc {
+    width: 400;
+    height: auto;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+
+.img p {
+    text-align: justify;
+    margin: 15px;
+}
+
+.img img {
+    width: 200px;
+    height: 200px;
+}
+
+a.informacao:link, a.informacao:visited {
+    box-shadow: black 2px 2px 5px;
+    text-decoration: none;
+    padding: 10px;
+    background: #ff9100;
+    font-weight: bold;
+    color: black;
+}
+
+a.informacao:hover, a.informacao:active {
+    box-shadow: black 5px 5px 5px;
+    color: white;
+}
+
+/*PORTIFOLIO*/
+.portifolio {
+    text-align: center;
+}
+
+.rolagem {
+    width: 220px;
+    height: 600px;
+    overflow: scroll;
+    float: left;
+}
+
+.imagem-grande {
+    width: 980px;
+    height: 600px;
+    float: left;
+}
+
+.imagem-grande iframe {
+    width: 900px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+
+/*CONTATO*/
+.contato {
+    float: left;
+    min-height: 300px;
+}
+
+#mapa iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.legenda {
+    width: 100px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.campo {
+    width: 300px;
+    height: 30px;
+}
+
+.texto {
+    width: 300px;
+    height: 60px;
+    resize: none;
+}
+
+.botao {
+    margin-left: 110px;
+}
+
+#formulario {
+    width: 40%;
+}
+
+#mapa {
+    width: 60%;
+}
